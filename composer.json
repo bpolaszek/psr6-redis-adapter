@@ -1,0 +1,17 @@
+{
+  "name": "bentools/psr6-redis-adapter",
+  "license": "MIT",
+  "type": "library",
+  "description": "Provides a basic PSR-6 implementation for Redis.",
+  "autoload": {
+    "psr-4": {
+      "BenTools\\Cache\\": "src/BenTools/Cache"
+    }
+  },
+  "require": {
+    "psr/cache": "1.0.*"
+  },
+  "suggest":          {
+    "ext-redis": "Required to use this pool."
+  }
+}
